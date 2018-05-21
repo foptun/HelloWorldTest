@@ -17,4 +17,10 @@ public class HelloWorld {
     String fun(){
         return null;
     }
+
+    public static void main(String[] args) {
+        HelloWorld helloWorld = new HelloWorld("Foptun");
+        String message = helloWorld.getMessage();
+        System.out.println("Hello "+message);
+    }
 }
